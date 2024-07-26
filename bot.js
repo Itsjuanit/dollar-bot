@@ -65,18 +65,6 @@ bot.command("dolar", async (ctx) => {
   }
 });
 
-// Nuevo comando /luisina
-bot.command("luisina", (ctx) => {
-  const luisinaMessage = `
-─────▄█▀█▄──▄███▄────❤
-────▐█░██████████▌────
-─────██▒█████████─────
-──────▀████████▀──────
-─────────▀██▀─────────
-  `;
-  ctx.reply(luisinaMessage);
-});
-
 bot.launch();
 
 console.log("Bot de Telegram iniciado...");
